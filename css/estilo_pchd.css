@@ -1,0 +1,308 @@
+body{
+	overflow-x: hidden;
+	background-image: url(../img/8.jpeg);
+	background-repeat: no-repeat; 
+	background-position: 50% 50%; 
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0;
+}
+#contenedor{
+	margin: 0px auto;
+	margin-top: -20px;
+	width: 90%;
+	height: 775px;
+	background: rgba(255, 255, 255, 0.6);
+	border: 2px solid black;
+}
+#contenedor2{
+	margin: 0px auto;
+	margin-top: -20px;
+	width: 90%;
+	height: 810px;
+	background: rgba(255, 255, 255, 0.6);
+	border: 2px solid black;
+}
+header{
+	border: 2px solid black;
+}
+section{
+	height: 93%;
+	border:2px solid black;
+}
+#article{
+	width: 55%;
+	height: 70%;
+	border: outset 5px;
+	text-align: center;
+	padding-top: 10px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	background: rgba(255, 255, 255, 0.7);
+}
+#article h1 {
+	margin-top: -5px;
+	margin-bottom: 0px;
+	font-family: 'Brush Script MT';
+	font-size: 35px;
+	text-decoration: underline;	
+}
+aside{
+	width: 35%;
+	height: 50%;
+	text-align: center;
+	padding-top: 10px;
+	float: right;
+	margin: 20px;
+	margin-right: 20px;
+	background: rgba(255, 255, 255, 0.7);
+}
+aside h1 {
+	margin-top: -5px;
+	margin-bottom: 30px;
+	font-family: 'Brush Script MT';
+	font-size: 45px;
+	text-decoration: underline;
+}
+#footer{
+	padding: 0;
+	margin: 0;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	text-align: center;
+	bottom: 0px;
+	border: 2px solid black;
+	background-color: black;
+	color: white;
+}
+nav{
+	width: 33%;
+	height: 100px;
+	float: right;
+	border: inset 3px;
+}
+nav ul {
+	margin-top: 10%;
+	display: inline-flex;
+	flex-wrap: wrap;
+	text-align: center;
+}
+nav ul li{
+	list-style: none;
+	padding: 5px;
+	font-size:20px;
+}
+nav ul li a{
+	background: darkblue;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	margin:5px;
+	border: 2px solid darkblue;
+	border-radius: 50px;
+}
+#menu{
+	font-size: 90%;
+	padding: 2px;
+}
+#logo{
+	background: white;
+	width: 25%;
+	height: 100px;
+	border: inset 3px;
+	float: left;
+}
+#logo img {
+	margin-top: 25px;
+	width: 100%;
+}
+#slogan{
+	float: left;
+	width: 40%;
+	height: 100px;
+	border: inset 3px;
+}
+#slogan h1{
+	font-family: 'Brush Script MT';
+	font-size: 250%;
+	margin-top: 25px;
+	text-align: center;
+}
+#menu:hover{
+	background: lightblue;
+	border: 2px solid lightblue; 
+	transition: 0.3s;
+}
+.ropa {
+	display: inline-flex;
+	flex-wrap: wrap;
+	margin-left: -3%;
+}
+.ropa a {
+	padding: 0;
+	text-decoration: none;
+	color: black;
+}
+.img1 {
+	cursor: pointer;
+	margin-left: 35px;
+	margin-top: 20px;
+	width: 150px;
+	height: 150px;
+	background-size: cover;
+	border: 1px solid black;
+	background-image: url(../img/2-1.jpg);
+	margin-top:  25%;
+}
+.img2 {
+	cursor: pointer;
+	margin-left: 35px;
+	margin-top: 20px;
+	width: 150px;
+	height: 150px;
+	background-size: cover;
+	border: 1px solid black;
+	background-image: url(../img/3-1.png);
+	margin-top:  25%;
+}
+.img3 {
+	cursor: pointer;
+	margin-left: 35px;
+	margin-top: 20px;
+	width: 150px;
+	height: 150px;
+	background-size: cover;
+	border: 1px solid black;
+	background-image: url(../img/4-1.jpg);
+	margin-top:  25%;
+}
+.img4 {
+	cursor: pointer;
+	margin-left: 35px;
+	margin-top: 20px;
+	width: 150px;
+	height: 150px;
+	background-size: cover;
+	border: 1px solid black;
+	background-image: url(../img/5-1.png);
+	margin-top:  25%;
+}
+.img5 {
+	cursor: pointer;
+	margin-left: 35px;
+	margin-top: 20px;
+	width: 150px;
+	height: 150px;
+	background-size: cover;
+	border: 1px solid black;
+	background-image: url(../img/6-1.png);
+	margin-top:  25%;
+}
+.img6 {
+	cursor: pointer;
+	margin-left: 35px;
+	margin-top: 20px;
+	width: 150px;
+	height: 150px;
+	background-size: cover;
+	border: 1px solid black;
+	background-image: url(../img/7-1.png);
+	margin-top:  25%;
+}
+.img1:hover{ cursor: pointer; background-image: url(../img/2-2.jpg); }
+.img2:hover{ cursor: pointer; background-image: url(../img/3-2.png); }
+.img3:hover{ cursor: pointer; background-image: url(../img/4-2.jpg); }
+.img4:hover{ cursor: pointer; background-image: url(../img/5-2.png); }
+.img5:hover{ cursor: pointer; background-image: url(../img/6-2.png); }
+.img6:hover{ cursor: pointer; background-image: url(../img/7-2.png); }
+
+.ropa h2{
+	text-align:center;
+	font-family: sans-serif;
+	font-size: 13px;
+	padding-top: 155px;
+	width: 125px;
+}
+.intermitente{
+	margin-top: -5px;
+  border: 1px solid red;
+  padding:0px;
+  animation: infinite lucesita 0.4s;
+  cursor: pointer;
+}
+.intermitente img{
+	width: 100%;
+	height: 30%;
+	cursor: pointer;
+}
+@keyframes lucesita {
+  0%,100%{
+     box-shadow: -1px 1px 0px 6px rgba(237,157,11,0.83);
+  }
+  50%{
+  box-shadow: 0px 0px 0px;
+  }
+}
+.mi{
+	margin-top: 19%;
+	margin-left: 2%;
+}
+#triste {
+	margin: 0 auto;
+	margin-top: 100px;
+	width: 350px;
+	height: 350px;
+	background-image: url(../img/f.png);
+	background-size: cover;
+}
+#contienecarrito {position:absolute;margin-left:575px;top:100px;clear:both;width:20%;float:right;padding:15px;border-radius:5px;box-shadow:0px 5px 10px rgba(0,0,0,0.2) inset;background:rgb(200,200,200);}
+#contienecarrito table tr td{text-align:right;padding:4px;}
+#contienecarrito table{width:100%;border-spacing:0;border-collapse:collapse;}
+#contienecarrito table tr:last-child{background:white;}
+
+#contenedorcarrito {width:80%;margin:auto;margin-left:10%;box-shadow:0px 10px 15px rgba(0,0,0,0.3);background:white;padding:15px;}
+#contenedorcarrito h1,h2,header a{width:50%;}
+#contenedorcarrito h1,h2,header a{text-align:left;}
+#contenedorcarrito h1,h2,h3,p{text-align:left;margin:0px;padding:0px;font-family:Arial;}
+#contenedorcarrito h1,h2,h3{font-size:24px;}
+#contenedorcarrito p{font-size:18px;}
+#contenedorcarrito header a{text-decoration:none;color:black;}
+#contenedorcarrito a{color:black;text-decoration:none;}
+#contenedorcarrito img{margin-right:10px;border:5px solid white;float:left;box-shadow:0px 10px 15px rgba(0,0,0,0.4);width:125px;height:125px;}
+#contenedorcarrito {clear:both;}
+#contenedorcarrito button{margin-bottom:10px;}
+
+#carrito {background:white;}
+#qsas{
+	width: 35%;
+	height: 68%;
+	text-align: center;
+	padding-top: 30px;
+	float: right;
+	margin: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+	background: rgba(255, 255, 255, 0.7);
+	overflow-y: scroll;
+}
+#qsas h1 {
+	margin-top: -10px;
+	margin-bottom: 30px;
+	font-family: 'Brush Script MT';
+	font-size: 35px;
+	text-decoration: underline;
+}
+#qsas h2 {
+	margin: auto;
+	text-align: center; 
+	font-family: Arial Black; 
+	font-weight: bold; 
+	font-size: 20px; 
+	color: #fff; 
+	text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+}
+#qsas p{
+	text-align: left;
+}

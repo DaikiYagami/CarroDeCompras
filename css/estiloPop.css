@@ -1,0 +1,33 @@
+body{
+	background-image: url(../img/fondo1.jpg);
+	background-repeat: no-repeat; 
+	background-position: 10% 50%; 
+	background-size: cover;
+	background-attachment: fixed;
+	width: 200;
+	height: 300;
+}
+.pop{
+	margin:1%;
+	padding: 0px auto;
+	background: rgba(255, 255, 255, 0.8);
+}
+h3{
+	font-size: 75%;
+	color: #000000;
+	background: #FFFFFF;
+	text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+}
+p{
+	margin:1%;
+	text-align: justify;
+}
+footer{
+	height: 10%;
+	border:2px solid black;
+	text-align: center;
+	margin: 1%;
+	padding-top: 1%;
+	color: black;
+}
+
